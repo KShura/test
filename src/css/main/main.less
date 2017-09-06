@@ -1,0 +1,39 @@
+@main-color: #A69900;
+@second-color: #015666;
+@third-color: #5F9900;
+
+@import:url(./add.less);
+
+body
+{
+	min-height:100%;
+}
+.main
+{
+	min-height:100%;
+	display:grid;
+	grid-template-columns: 300px 1fr;
+	grid-template-rows: 200px 1fr 200px;
+}
+
+.color-red
+{
+	background:@third-color;
+}
+.color-green
+{
+	background:#5f5;
+}
+.color-blue
+{
+	background:#55f;
+}
+.color-black
+{
+	background:#000;
+}
+.color-white
+{
+	background:#fff;
+	color:@main-color;
+}
